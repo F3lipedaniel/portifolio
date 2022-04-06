@@ -1,0 +1,49 @@
+.foto-perfil{
+    height: 100%;
+    width: auto;
+    max-width: 30%;
+    border-radius: 50%;
+    }
+    .background {
+      background: rgb(226,38,38);
+      background: linear-gradient(90deg, rgba(226,38,38,0.8603816526610644) 0%, rgba(235,234,234,1) 49%, rgba(36,218,216,0.86) 100%);
+    }
+    .corHeading {
+      background-color: rgb(0, 0, 0);
+      color: aliceblue;
+    }
+    p {
+      font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      color: black !important;
+      margin-bottom: 0;
+    }
+    .icones {
+      padding-left:5px ;
+    }
+
+    .tituloBrancos {
+      text-decoration: underline;
+      text-underline-position: below;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: white;
+    }
+    .tituloPretos {
+      text-decoration: underline;
+      text-underline-position: below;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: black ;
+    }
+    .tam-card {
+      height: 400px;
+    }
+    .jumbotron {
+      margin-bottom: 0;
+    }
+    .lead{
+      margin-bottom: 0;
+    }
+    html {
+      scroll-behavior: smooth;
+    }

@@ -10,53 +10,11 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/f73f461ba1.js" crossorigin="anonymous"></script>
-<style>
-.foto-perfil{
-    height: 100%;
-    width: auto;
-    max-width: 30%;
-    border-radius: 50%;
-    }
-    .corPrimaria {
-      background-color: wheat;
-
-    }
-    .corSegundaria {
-      background-color: wheat;
-    }
-    .corHeading {
-      background-color: aqua;
-    }
-    p {
-      font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      color: black !important;
-    }
-    .icones {
-      padding-left:5px ;
-    }
-
-    .tituloBrancos {
-      text-decoration: underline;
-      text-underline-position: below;
-      text-transform: uppercase;
-      font-weight: 700;
-      color: white;
-    }
-    .tituloVPretos {
-      text-decoration: underline;
-      text-underline-position: below;
-      text-transform: uppercase;
-      font-weight: 700;
-      color: black ;
-    }
-    .tam-card {
-      height: 400px;
-    }
-</style>
+<link href="port.css" rel="stylesheet">
 </head>
 <body>
-    <nav class=" corHeading navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">Felipe Daniel </a>
+    <nav class=" corHeading navbar navbar-expand-lg">
+        <a class="navbar-brand corHeading" href="#">Felipe Daniel </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -67,22 +25,22 @@
             </ul>
             <ul class="navbar-nav">  
                 <li class="nav-item">
-                    <a class="nav-link" href="#">PROJETOS</a>
+                    <a class="nav-link corHeading" href="#projetos">PROJETOS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">SOBRE MIM</a>
+                    <a class="nav-link corHeading" href="#sobremim">SOBRE MIM</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">DEPOIMENTOS</a>
+                    <a class="nav-link corHeading" href="#depoimentos">DEPOIMENTOS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">CONTATOS</a>
+                    <a class="nav-link corHeading" href="#contatos">CONTATOS</a>
                 </li>
                 
             </ul>   
         </div>
       </nav>
-      <section class="jumbotron text-center corPrimaria">
+      <section class="jumbotron text-center background">
         <div class="container">
             <img class="foto-perfil" src="imagens/felipe.jpeg" alt="adsa">
           <h1 class="jumbotron-heading">Felipe Daniel dos Santos</h1>
@@ -90,15 +48,24 @@
           <p>
             <a href="https://api.whatsapp.com/send?phone=5561983612880&text=" target="_blank" class="btn btn-dark my-2">CONTATO</a>
           </p>
-          <a href="https://www.linkedin.com/in/felipe-daniel-20b7221a4/"><I class="icones fab fa-linkedin"></I></a>
-          <a href="https://github.com/F3lipedaniel"><I class="icones fab fa-github"></I></a>
-          <a href="https://www.instagram.com/f3lipedaniel/"><I class="icones fab fa-instagram"></I></a>
+          <a href="https://www.linkedin.com/in/felipe-daniel-20b7221a4/" target="_blank"><I class="icones fab fa-linkedin"></I></a>
+          <a href="https://github.com/F3lipedaniel" target="_blank"><I class="icones fab fa-github"></I></a>
+          <a href="https://www.instagram.com/f3lipedaniel/" target="_blank"><I class="icones fab fa-instagram"></I></a>
 
         </div>
       </section>
-      <div class="album py-5  corPrimaria">
+      <!-- SOBRE MIM-->
+      <section class="text-center background" id="sobremim">
         <div class="container">
-<h2 class="jumbotron-heading text-center tituloVerdes">PROJETOS</h2>
+          <h2 class="jumbotron-heading tituloPretos">Sobre mim</h2> 
+          <p class="lead">	Olá, meu nome é Felipe e tenho 23 anos, atualmente moro em Brasilia-DF, estou cursando Análise e desenvolvimento de sistemas pela instituição de ensino UniCeub. 
+            Participei de algumas implementações de sistemas em empresas no ramo alimentícios que inclui: Restaurante, Pizzaria, Mercearia, Supermercado, Delivery em geral, Padaria e afins. Indo desde o estudo de plataformas e soluções tecnológicas até á compra do cliente final em nosso loja, passando por treinamento de colaboradores, precificação, cadastro, lançamentos a pagar e a receber e muito mais. Também já fiz alguns trabalhos com redes sociais e artes. Meu objetivo é entrar efetivamente no ramo de desenvolvimento de softwares e afins. 	</p>
+        </div>
+      </section>
+      <!--PROJETOS-->
+      <div class="album py-5  background" id="projetos">
+        <div class="container">
+<h2 class="jumbotron-heading text-center tituloPretos">PROJETOS</h2>
           <div class="row">
             <div class="col-md-6">
               <div class="card mb-4 box-shadow tam-card">
@@ -128,15 +95,8 @@
           </div>
         </div>
       </div>
-      <!-- SOBRE MIM-->
-      <section class="jumbotron text-center corPrimaria">
-        <div class="container">
-<h2 class="jumbotron-heading">Sobre mim</h2> 
-         <p class="lead">Olá meu nome é Felipe, tenho 23 anos e sou um desenvolvedor em formação. Já participei de processo de implementação em empresas varejistas como SAYONARA GOURMET, DUJUCA, SUPERMERCADO MINAS ENTRE OUTROS. O meu intuito é entrar para o mercado de desenvolvimento</p>
-        </div>
-      </section>
       <!--depoimentos-->
-      <section class="jumbotron text-center corPrimaria tituloBrancos">
+      <section class="jumbotron text-center background tituloPretos" id="depoimentos">
         <div class="container">
           <h2 class="jumbotron-heading text-center">
             DEPOIMENTOS
@@ -148,7 +108,7 @@
         </div>
       </section>
       <!--footer-->
-      <footer class="text-center corSegundaria">
+      <footer class="text-center corSegundaria background">
       <p>
         Copyright 2022 Felipe Daniel
       </p>
