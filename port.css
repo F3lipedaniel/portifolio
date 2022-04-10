@@ -43,7 +43,24 @@
     }
     .lead{
       margin-bottom: 0;
+      text-underline-position: below;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: black ;
     }
     html {
       scroll-behavior: smooth;
+    }
+
+    .foto-perfil-depoimento {
+      height: 100%;
+      width: auto;
+      max-width: 9%;
+      border-radius: 50%;
+    }
+    .Depoimentos {
+      text-underline-position: below;
+
+      font-weight: 700;
+      color: black ;
     }
