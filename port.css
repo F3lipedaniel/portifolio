@@ -60,7 +60,27 @@
     }
     .Depoimentos {
       text-underline-position: below;
-
       font-weight: 700;
       color: black ;
+    }
+
+    .banner {
+    overflow: hidden;
+    }
+
+    .banner .sliders {
+      width: 100vw;
+      
+        }
+    .banner .slide {
+      width: 50vw;
+      display: inline-block;
+      
+    }
+    .banner .slidearea {
+      display: flex;
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+      text-transform: uppercase;
     }
